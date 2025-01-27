@@ -53,6 +53,8 @@ call s:ColorDictParser({
 	\
 	\ , 'StatusLine'                  : [    231,    236,           'bold']
 	\ , 'StatusLineNC'                : [    244,    232,               '']
+	\ , 'StatusLineTerm'              : [    232,    248,           'bold']
+	\ , 'StatusLineTermNC'            : [    244,    232,               '']
 	\
 	\ , 'LineNr'                      : [    243,    235,               '']
 	\ , 'VertSplit'                   : [    240,     '',               '']
@@ -81,7 +83,7 @@ call s:ColorDictParser({
 	\
 	\ , 'SpecialKey'                  : [    239,     '',               '']
 	\ , 'NonText'                     : [     88,     '',               '']
-	\ , 'MatchParen'                  : [    231,     64,           'bold']
+	\ , 'MatchParen'                  : [    231,    142,           'bold']
 	\
 	\ , 'Constant'                    : [    137,     '',           'bold']
 	\ , 'Special'                     : [    150,     '',               '']
