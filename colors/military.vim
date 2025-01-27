@@ -155,9 +155,9 @@ call s:ColorDictParser({
 	\ , 'CTagsGlobalVariable'         : [    253,     '',               '',      'dadada',        '',               '']
 	\ , 'CTagsMember'                 : [    145,     '',               '',      'afafaf',        '',               '']
 	\
-	\ , 'xmlTag'                      : [    149,     '',           'bold',      'afd75f',        '',           'bold']
+	\ , 'xmlTag'                      : [    149,     '',               '',      'afd75f',        '',           'bold']
 	\ , 'xmlTagName'                  : [    250,     '',               '',      'bcbcbc',        '',               '']
-	\ , 'xmlEndTag'                   : [    209,     '',           'bold',      'ff875f',        '',           'bold']
+	\ , 'xmlEndTag'                   : [    149,     '',               '',      'afd75f',        '',           'bold']
 	\
 	\ , 'cssImportant'                : [    166,     '',           'bold',      'd75f00',        '',           'bold']
 	\
