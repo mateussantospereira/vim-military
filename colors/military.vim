@@ -81,7 +81,7 @@ call s:ColorDictParser({
 	\
 	\ , 'SpecialKey'                  : [    239,     '',               '']
 	\ , 'NonText'                     : [     88,     '',               '']
-	\ , 'MatchParen'                  : [    231,     25,           'bold']
+	\ , 'MatchParen'                  : [    231,     64,           'bold']
 	\
 	\ , 'Constant'                    : [    137,     '',           'bold']
 	\ , 'Special'                     : [    150,     '',               '']
