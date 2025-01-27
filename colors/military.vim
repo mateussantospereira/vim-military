@@ -58,7 +58,7 @@ call s:ColorDictParser({
 	\ , 'VertSplit'                   : [    240,     '',               '']
 	\
 	\ , 'WildMenu'                    : [    234,    231,               '']
-	\ , 'Directory'                   : [    143,     '',           'bold']
+	\ , 'Directory'                   : [    186,     '',           'bold']
 	\ , 'Underlined'                  : [    130,     '',               '']
 	\
 	\ , 'Question'                    : [     74,     '',           'bold']
@@ -89,7 +89,7 @@ call s:ColorDictParser({
 	\ , 'Statement'                   : [    186,     '',           'bold']
 	\ , 'PreProc'                     : [    247,     '',               '']
 	\ , 'Type'                        : [     67,     '',           'bold']
-	\ , 'String'                      : [    143,     '',               '']
+	\ , 'String'                      : [    186,     '',               '']
 	\ , 'Number'                      : [    173,     '',               '']
 	\ , 'Define'                      : [    173,     '',               '']
 	\ , 'Error'                       : [    208,    124,               '']
