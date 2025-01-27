@@ -85,12 +85,12 @@ call s:ColorDictParser({
 	\
 	\ , 'Constant'                    : [    137,     '',           'bold']
 	\ , 'Special'                     : [    150,     '',               '']
-	\ , 'Identifier'                  : [     66,     '',           'bold']
+	\ , 'Identifier'                  : [    173,     '',           'bold']
 	\ , 'Statement'                   : [    186,     '',           'bold']
 	\ , 'PreProc'                     : [    247,     '',               '']
-	\ , 'Type'                        : [     67,     '',           'bold']
+	\ , 'Type'                        : [    111,     '',           'bold']
 	\ , 'String'                      : [    186,     '',               '']
-	\ , 'Number'                      : [    173,     '',               '']
+	\ , 'Number'                      : [    221,     '',               '']
 	\ , 'Define'                      : [    173,     '',               '']
 	\ , 'Error'                       : [    208,    124,               '']
 	\ , 'Function'                    : [    179,     '',               '']
@@ -166,9 +166,11 @@ call s:ColorDictParser({
 	\ , 'CTagsGlobalVariable'         : [    253,     '',               '']
 	\ , 'CTagsMember'                 : [    145,     '',               '']
 	\
-	\ , 'xmlTag'                      : [    149,     '',               '']
-	\ , 'xmlTagName'                  : [    250,     '',               '']
-	\ , 'xmlEndTag'                   : [    149,     '',               '']
+	\ , 'xmlTag'                      : [    252,     '',               '']
+	\ , 'xmlTagName'                  : [    156,     '',               '']
+	\ , 'xmlEndTag'                   : [    252,     '',               '']
+	\
+	\ , 'htmlLink'                    : [    231,     '',      'underline']
 	\
 	\ , 'cssImportant'                : [    166,     '',           'bold']
 	\
