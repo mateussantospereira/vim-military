@@ -110,8 +110,8 @@ call s:ColorDictParser({
 	\ , 'SyntasticWarning'            : [    220,     94,               '']
 	\ , 'SyntasticError'              : [    202,     52,               '']
 	\
-	\ , 'Pmenu'                       : [    248,    240,               '']
-	\ , 'PmenuSel'                    : [    253,    245,               '']
+	\ , 'Pmenu'                       : [    249,    239,               '']
+	\ , 'PmenuSel'                    : [    255,    245,               '']
 	\ , 'PmenuSbar'                   : [    253,    248,               '']
 	\
 	\ , 'phpEOL'                      : [    245,     '',               '']
