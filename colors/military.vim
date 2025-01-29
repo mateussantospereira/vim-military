@@ -56,12 +56,14 @@ call s:ColorDictParser({
 	\ , 'StatusLineTerm'              : [    232,    248,           'bold']
 	\ , 'StatusLineTermNC'            : [    244,    232,               '']
 	\
-	\ , 'LineNr'                      : [    243,    235,               '']
+	\ , 'LineNr'                      : [    248,    235,               '']
 	\ , 'VertSplit'                   : [    240,     '',               '']
 	\
 	\ , 'WildMenu'                    : [    234,    231,               '']
-	\ , 'Directory'                   : [    186,     '',           'bold']
+	\ , 'Directory'                   : [    154,     '',               '']
 	\ , 'Underlined'                  : [    130,     '',               '']
+	\
+	\ , 'netrwClassify'               : [    142,     '',           'bold']
 	\
 	\ , 'Question'                    : [     74,     '',           'bold']
 	\ , 'MoreMsg'                     : [    214,     '',           'bold']
@@ -88,14 +90,15 @@ call s:ColorDictParser({
 	\ , 'Constant'                    : [    137,     '',           'bold']
 	\ , 'Special'                     : [    150,     '',               '']
 	\ , 'Identifier'                  : [    173,     '',           'bold']
-	\ , 'Statement'                   : [    186,     '',           'bold']
+	\ , 'Statement'                   : [    190,     '',           'bold']
 	\ , 'PreProc'                     : [    247,     '',               '']
 	\ , 'Type'                        : [    111,     '',           'bold']
-	\ , 'String'                      : [    186,     '',               '']
+	\ , 'String'                      : [    155,     '',               '']
 	\ , 'Number'                      : [    221,     '',               '']
 	\ , 'Define'                      : [    173,     '',               '']
 	\ , 'Error'                       : [    208,    124,               '']
 	\ , 'Function'                    : [    179,     '',               '']
+	\ , 'Conditional'                 : [    190,     '',           'bold']
 	\ , 'Include'                     : [    173,     '',               '']
 	\ , 'PreCondit'                   : [    173,     '',               '']
 	\ , 'Keyword'                     : [    173,     '',               '']
@@ -110,7 +113,7 @@ call s:ColorDictParser({
 	\ , 'SyntasticWarning'            : [    220,     94,               '']
 	\ , 'SyntasticError'              : [    202,     52,               '']
 	\
-	\ , 'Pmenu'                       : [    249,    239,               '']
+	\ , 'Pmenu'                       : [    249,    238,               '']
 	\ , 'PmenuSel'                    : [    255,    245,               '']
 	\ , 'PmenuSbar'                   : [    253,    248,               '']
 	\
@@ -136,7 +139,7 @@ call s:ColorDictParser({
 	\ , 'pythonClass'                 : [    221,     '',           'bold']
 	\ , 'pythonExClass'               : [    130,     '',               '']
 	\ , 'pythonException'             : [    130,     '',           'bold']
-	\ , 'pythonOperator'              : [    186,     '',               '']
+	\ , 'pythonOperator'              : [    190,     '',               '']
 	\ , 'pythonPreCondit'             : [    152,     '',           'bold']
 	\ , 'pythonDottedName'            : [    166,     '',               '']
 	\ , 'pythonDecorator'             : [    124,     '',           'bold']
@@ -144,7 +147,7 @@ call s:ColorDictParser({
     \ , 'javaScriptComment'           : [    240,    233,               '']
     \ , 'javaScriptFunction'          : [    179,     '',           'bold']
     \ , 'javaScriptKeyword'           : [    130,     '',           'bold']
-    \ , 'javaScriptOperator'          : [    186,     '',               '']
+    \ , 'javaScriptOperator'          : [    190,     '',               '']
     \ , 'javaScriptString'            : [    240,    233,               '']
     \ , 'javaScriptNumber'            : [    221,     '',               '']
     \ , 'javaScriptClass'             : [    221,     '',           'bold']
@@ -152,7 +155,7 @@ call s:ColorDictParser({
     \ , 'javaScriptException'         : [    130,     '',           'bold']
     \ , 'javaScriptIdentifier'        : [    172,     '',           'bold']
     \ , 'javaScriptDecorator'         : [    124,     '',           'bold']
-    \ , 'javaScriptReserved'          : [    130,     '',           'bold']
+    \ , 'javaScriptReserved'          : [    208,     '',           'bold']
     \ , 'javaScriptNull'              : [    130,     '',               '']
     \ , 'javaScriptBoolean'           : [    124,     '',           'bold']
 	\
@@ -169,7 +172,7 @@ call s:ColorDictParser({
 	\ , 'CTagsMember'                 : [    145,     '',               '']
 	\
 	\ , 'xmlTag'                      : [    252,     '',               '']
-	\ , 'xmlTagName'                  : [    156,     '',               '']
+	\ , 'xmlTagName'                  : [    119,     '',               '']
 	\ , 'xmlEndTag'                   : [    252,     '',               '']
 	\
 	\ , 'htmlLink'                    : [    231,     '',      'underline']
