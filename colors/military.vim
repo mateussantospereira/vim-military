@@ -117,6 +117,10 @@ call s:ColorDictParser({
 	\ , 'PmenuSel'                    : [    255,    245,               '']
 	\ , 'PmenuSbar'                   : [    253,    248,               '']
 	\
+	\ , 'CocSearch'                   : [    148,     '',               '']
+	\ , 'CocMenuSel'                  : [     '',    237,               '']
+	\ , 'CocFloating'                 : [     '',    234,               '']
+	\
 	\ , 'phpEOL'                      : [    245,     '',               '']
 	\ , 'phpStringDelim'              : [     94,     '',               '']
 	\ , 'phpDelimiter'                : [    160,     '',               '']
