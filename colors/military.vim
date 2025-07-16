@@ -36,7 +36,7 @@
 "	   | Highlight group                |  CTFG |  CTBG |    CTAttributes |
 "	   |--------------------------------|-------|-------|-----------------|
 call s:ColorDictParser({
-	\   'Normal'                      : [    231,     16,               '']
+	\   'Normal'                      : [    231,     '',               '']
 	\ , 'Visual'                      : [    240,    253,               '']
 	\
 	\ , 'Cursor'                      : [     '',     '',               '']
